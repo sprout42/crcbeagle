@@ -1,5 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='crcbeagle',
+    name = 'crcbeagle',
+    packages = ['crcbeagle'],
+    package_dir = {
+        'crcbeagle': 'crcbeagle'
+    },
 )
